@@ -1,6 +1,6 @@
 <div class="container">
     <img alt="imagem produto" src="data:image/png;base64,{{produto?.foto}}"/>
-    <h2>{{produto?.descricao_produto}}</h2>
-    <p>Massa, frango desfiado, queijo mussarela, milho, ervilha</p>
+    <h2>{{produto?.nome_produto}}</h2>
+    <p>{{produto?.descricao_produto}}</p>
     <h3>{{produto?.preco_venda?.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}}</h3>
 </div>
