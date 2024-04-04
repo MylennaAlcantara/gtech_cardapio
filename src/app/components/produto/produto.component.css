@@ -1,0 +1,35 @@
+.container{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px var(--gray-light);
+}
+
+.container:hover{
+    cursor: pointer;
+    border: 1px solid var(--color-thema);
+}
+
+.container img{
+    height: 30%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.container h2{
+    color: var(--gray-dark);
+    text-align: center;
+    margin: 10px;
+}
+
+.container p{
+    color: var(--gray-light);
+    margin: 10px;
+}
+
+.container h3{
+    color: var(--gray-dark);
+    margin: 10px;
+}
