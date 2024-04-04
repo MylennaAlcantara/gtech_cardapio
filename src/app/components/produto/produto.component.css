@@ -33,3 +33,15 @@
     color: var(--gray-dark);
     margin: 10px;
 }
+
+@media (max-width: 460px) {
+    .container{
+        width: 80%;
+        height: 300px;
+        margin: 10px auto;
+    }
+
+    .container img{
+        height: 40%;
+    }
+}
